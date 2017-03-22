@@ -14,6 +14,8 @@
   <!-- Projects hosted on Github -->
   <project path="kernel" name="msm-linux" 
            remote="github" revision="refs/heads/hammerhead-6.0.1-onpersist" />
+  <project path="vendor" name="android-vendor-proprietaries"
+           remote="github" revision="refs/heads/hammerhead-6.0.1-onpersist" />
 
   <!-- Projects hosted on Android AOSP -->
   <project path="build" name="platform/build" groups="pdk" >
