@@ -19,6 +19,7 @@
   <project path="build" name="android-build"
       remote="github" revision="refs/heads/hammerhead-6.0.1-onpersist">
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="ycm_extra_conf.py" dest=".ycm_extra_conf.py" />
   </project>
 
   <!-- Projects hosted on Android AOSP -->
